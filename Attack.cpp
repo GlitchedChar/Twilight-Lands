@@ -68,6 +68,7 @@ Defines constructors and functions from Attack.h */
     }
     int Attack::getXP(){
         //Placeholder for fight function
+        return 0;
     }
     
 void Attack::setSpell(int spellpower){ //spellpower = level??

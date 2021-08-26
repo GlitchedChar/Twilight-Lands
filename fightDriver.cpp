@@ -42,6 +42,9 @@ using namespace std;
 
 //README:
 //Many of the input lines use 'cin', which causes the game to be able to break. You have been warned!
+//To run code *in VSCode* (cmd does not like the colors) type: g++ fightDriver.cpp Attack.cpp Enemy.cpp Shop.cpp User.cpp
+//then ./a.exe
+//Have fun and good luck!
 
 //1.0 changelog:
 //Ending actually works, all 3 are working!
@@ -948,7 +951,7 @@ string finalOut(){
 //function goes on until user runs, kills enemy, or dies 
 //main() will then decide what happens (print ending, go back to map, etc)
 
-User fight(User user){ 
+User fight(User user){
     
     //SETTING HEALTH
     if (user.getFightCount() == 0){
@@ -1797,6 +1800,7 @@ User fight(User user){
         return user;
     }
     }//while
+    return user;
 }
 
 

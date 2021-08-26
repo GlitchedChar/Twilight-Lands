@@ -42,6 +42,7 @@ Defines constructors and functions from Shop.h */
             canShop = false;
             return false;
         }
+        else {return false;}
     }
     
     void Shop::setRarity(int r1){
@@ -53,7 +54,7 @@ Defines constructors and functions from Shop.h */
     string Shop::items(){
         
         //items will be used in the buy_stuff function
-        
+        return "";
     }
     void Shop::setShopkeeper(string shopk){ //name of shopkeeper
         shopkeeper = shopk;
